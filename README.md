@@ -2,6 +2,11 @@
 
 A simple 3D game built using OpenGL (via the LearnOpenGL framework) in C++. In this game, you control a cyborg on a checkerboard playing field. The objective is to collect all the spinning planets while avoiding the scattered rocks. 
 
+
+
+https://github.com/user-attachments/assets/91425ec8-e0ea-4af3-82b4-4af4ddc46990
+
+
 ## Features
 
 - **Player Character:** Control a 3D cyborg character.
