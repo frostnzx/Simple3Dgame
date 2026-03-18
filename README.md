@@ -22,37 +22,6 @@ A simple 3D game built using OpenGL (via the LearnOpenGL framework) in C++. In t
 - **Assimp** for loading 3D models (`.obj`)
 - **stb_image** for texture loading
 
-## Build Instructions (Linux)
-
-This relies on standard development libraries. You'll need CMake and a C++ compiler.
-
-1. Install dependencies:
-   ```bash
-   sudo apt-get update
-   sudo apt-get install cmake xorg-dev libgl1-mesa-dev pkg-config
-   # Note: Assimp should preferably be available on your system, or CMake will try to find it.
-   # sudo apt install libassimp-dev
-   ```
-
-2. Clone the repository and build:
-   ```bash
-   git clone git@github.com:frostnzx/Simple3Dgame.git
-   cd Simple3Dgame
-
-   # Create the build directory
-   mkdir build && cd build
-   
-   # Configure the project
-   cmake ..
-
-   # Compile the project
-   cmake --build . -j$(nproc)
-   ```
-
-3. Run the game:
-   ```bash
-   ./game
-   ```
 
 ## Controls
 
